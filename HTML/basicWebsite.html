@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .box {
+        border: 2px solid black;
+        width: 35em;
+        height: 50em;
+        justify-self: center;
+        margin: 4%;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+      }
+      .right {
+        display: flex;
+        gap: 10px;
+      }
+      ul {
+        list-style: none;
+      }
+      .left {
+        margin-right: auto;
+      }
+      .up h2 {
+        font-family: "Architects Daughter", cursive;
+        font-weight: 400;
+        text-align: center;
+        margin: 80px;
+      }
+      #table {
+        list-style: square;
+      }
+      .middle {
+        margin-top: 80px;
+      }
+      .down {
+        display: flex;
+      }
+      .card {
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+      }
+      #john {
+        /* text-align: left; */
+        padding: 5px;
+        color: #b9e9e9;
+      }
+      footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="up">
+        <nav>
+          <ul class="left">
+            <li>Your Name</li>
+          </ul>
+          <ul class="right">
+            <li>Home /</li>
+            <li>Contact /</li>
+            <li>Projects /</li>
+            <li>Articles</li>
+          </ul>
+        </nav>
+        <h2>FrontEnd Developer</h2>
+      </div>
+      <div class="middle">
+        <table border="1">
+          <tr
+            style="font-family: Architects Daughter"
+            ,
+            cursive;
+            font-weight:
+            400;
+          >
+            <th>Projects</th>
+            <th>Work Experience</th>
+            <th>Education</th>
+          </tr>
+          <tr>
+            <td>
+              <p>HTML Only portfolio</p>
+              <p>Calculator</p>
+              <p>Quiz app</p>
+              <p>Countdown Timer</p>
+              <p>Product upcoming page</p>
+            </td>
+            <td>
+              <p>roadmap.sh</p>
+              <p>Solved all the frontend projects</p>
+              <p><a href="#">Visit my Profile</a></p>
+            </td>
+            <td>
+              <p>Graduated with 3.79 out of 4 CGPA.Won Hackathons.</p>
+              <p>Courses i took:</p>
+              <ul id="table">
+                <li>OOP</li>
+                <li>DSA</li>
+                <li>WEB ENGINEERING</li>
+                <li>AI</li>
+                <li>COMPUTER GRAPHICS</li>
+                <li>DISCRETE MATHEMATICS</li>
+                <li>DBMS</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h3 style="font-family: Architects Daughter" , cursive;>
+        Review from my teachers :
+      </h3>
+      <div class="down">
+        <div class="card">
+          <p>John Doe was a brillaint student.</p>
+          <p id="john">John Doe <br />Assistant Professor</p>
+        </div>
+        <div class="card">
+          <p>John Doe was hardworking</p>
+          <p id="john">John Doe <br />Assistant Professor</p>
+        </div>
+        <div class="card">
+          <p>John Doe is sincere towards his work.</p>
+          <p id="john">John Doe <br />Assistant Professor</p>
+        </div>
+      </div>
+      <br />
+      <footer>&copy;all rights reserved 2026</footer>
+    </div>
+  </body>
+</html>
