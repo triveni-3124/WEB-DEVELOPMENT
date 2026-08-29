@@ -2,7 +2,7 @@
 A responsive FAQ page built as a DevChallenges project.
 ## Demo
 
-[Live Demo](https://triveni-3124.github.io/WEB-DEVELOPMENT/DevChallenge-1/index.html)
+[Live Demo](https://triveni-3124.github.io/WEB-DEVELOPMENT/Dev%20Challenge-1/)
 
 ## Repository
 
