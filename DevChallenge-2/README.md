@@ -8,7 +8,7 @@ A responsive minimal blog card built as a DevChallenges project.
 
 ## Repository
 
-[GitHubRepository] (https://github.com/triveni-3124/WEB-DEVELOPMENT)
+[GitHub Repository](https://github.com/triveni-3124/WEB-DEVELOPMENT)
 
 ## What I learned
 
