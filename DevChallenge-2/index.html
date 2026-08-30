@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal-Blog Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .page {
+        font-family: "Sora", sans-serif;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .card {
+        width: 22em;
+        height: 23em;
+        border: 1px solid #FAFAF9;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+        border-radius: 10px;
+      }
+      img {
+        border-radius: 10px;
+        width: 90%;
+        margin: 15px 20px 5px;
+      }
+      #capsule {
+        border: 2px solid #F2EAFD;
+        border-radius: 10px;
+        font-size: 10px;
+        display: inline-block;
+        padding: 3px 15px;
+        margin : 3px 20px;
+        background-color: #F2EAFD;
+        color: #7C19EE;
+      }
+      .text{
+        padding-left: 20px;
+        margin-top: 5px;
+      }
+      .text p:first-child{
+        color: #20293A;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+      }
+      .text p:nth-child(2){
+        color: #394150;
+        font-size: 14px;
+        margin-top: 10px;
+        line-height: 20px;
+        
+      }
+      hr{
+        border: none;
+        border-top: 1px solid #E5EAF0;
+      }
+      .author{
+        color: #394150;
+        padding-left: 20px;
+        font-size: 12px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="card">
+        <img src="Cactus.jpg" alt="cactus" />
+        <div id="capsule"><strong>Design</strong></div>
+        <div class="text"><p><strong>Embracing Minimalism</strong></p>
+        <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p></div>
+        <hr>
+        <p class="author">Annie Spratt</p>
+      </div>
+    </div>
+  </body>
+</html>
