@@ -23,7 +23,7 @@
       .card {
         width: 22em;
         height: 23em;
-        border: 1px solid #FAFAF9;
+        border: 1px solid #fafaf9;
         box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
         border-radius: 10px;
       }
@@ -33,41 +33,47 @@
         margin: 15px 20px 5px;
       }
       #capsule {
-        border: 2px solid #F2EAFD;
+        border: 2px solid #f2eafd;
         border-radius: 10px;
         font-size: 10px;
         display: inline-block;
         padding: 3px 15px;
-        margin : 3px 20px;
-        background-color: #F2EAFD;
-        color: #7C19EE;
+        margin: 3px 20px;
+        background-color: #f2eafd;
+        color: #7c19ee;
       }
-      .text{
+      .text {
         padding-left: 20px;
         margin-top: 5px;
       }
-      .text p:first-child{
-        color: #20293A;
+      .text p:first-child {
+        color: #20293a;
         font-size: 16px;
         margin-top: 10px;
         margin-bottom: 0px;
       }
-      .text p:nth-child(2){
+      .text p:nth-child(2) {
         color: #394150;
         font-size: 14px;
         margin-top: 10px;
         line-height: 20px;
-        
       }
-      hr{
+      hr {
         border: none;
-        border-top: 1px solid #E5EAF0;
+        border-top: 1px solid #e5eaf0;
       }
-      .author{
+      .author {
         color: #394150;
         padding-left: 20px;
         font-size: 12px;
         margin-top: 20px;
+      }
+
+      @media (max-width: 600px) {
+        .card {
+          width: 20em;
+          height: 23em;
+        }
       }
     </style>
   </head>
@@ -76,9 +82,14 @@
       <div class="card">
         <img src="Cactus.jpg" alt="cactus" />
         <div id="capsule"><strong>Design</strong></div>
-        <div class="text"><p><strong>Embracing Minimalism</strong></p>
-        <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p></div>
-        <hr>
+        <div class="text">
+          <p><strong>Embracing Minimalism</strong></p>
+          <p>
+            From minimalist sculptures to minimalist paintings, this blog will
+            inspire you to appreciate the beauty that lies in simplicity.
+          </p>
+        </div>
+        <hr />
         <p class="author">Annie Spratt</p>
       </div>
     </div>
