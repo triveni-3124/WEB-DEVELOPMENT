@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple article Listing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      main p {
+        color: #000000;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        max-width: 700px;
+        margin: 30px auto;
+        padding-bottom: 20px;
+      }
+      .art1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .art1 img {
+        margin: 25px;
+        border-radius: 10px;
+      }
+      .content {
+        width: 550px;
+        margin: 30px;
+        padding-bottom: 20px;
+        gap: 20px;
+      }
+      .content p {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .content span {
+        color: #4d5562;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      img {
+        height: 150px;
+        width: 150px;
+      }
+      @media (max-width: 700px) {
+        .main {
+          font-size: 28px;
+          width: 90%;
+        }
+
+        .art1 {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+        }
+
+        .content {
+          width: 100%;
+        }
+
+        .art1 img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>We release interesting articles about technology</p>
+    </main>
+    <!--article-1-->
+    <div class="art1">
+      <img src="photo_1.png" alt="pic1" />
+      <div class="content">
+        <p>
+          Unlocking the Power of Cloud Computing:A Guide to Scalable Solutions
+        </p>
+        <span>November 12, 2024</span>
+      </div>
+    </div>
+    <div class="art1">
+      <img src="photo_2.png" alt="pic2" />
+      <div class="content">
+        <p>
+          The Future of AI : How Machine Learning is Revolutionizing Industries
+        </p>
+        <span>November 12, 2024</span>
+      </div>
+    </div>
+    <div class="art1">
+      <img src="photo_3.png" alt="pic3" />
+      <div class="content">
+        <p>
+          The Impact of 5G on Business : How Faster Networks are Transforming
+          the Way We Work.
+        </p>
+        <span>November 12, 2024</span>
+      </div>
+    </div>
+  </body>
+</html>
