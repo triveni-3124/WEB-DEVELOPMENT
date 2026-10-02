@@ -4,7 +4,7 @@ A responsive testimonial page built with HTML and CSS based on a design challeng
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://triveni-3124.github.io/WEB-DEVELOPMENT/DevChallenge-5/)
+[View Live Demo](https://triveni-3124.github.io/WEB-DEVELOPMENT/DevChallenge-5/index.html)
 
 ## 🛠️ Built With
 
