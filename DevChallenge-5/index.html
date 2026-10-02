@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonial Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Sora", sans-serif;
+      }
+      .main {
+        margin: 120px 20px;
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #circle {
+        background-color: #f5c044;
+        /*border: 2px solid #F5C044; */
+        border-radius: 50%;
+        padding: 7px;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #title {
+        font-size: 36px;
+        font-weight: 550;
+        margin-top: 15px;
+      }
+      #body {
+        color: #52525a;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 65%;
+      }
+      .list {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .items {
+        color: #52525a;
+        display: flex;
+        align-items: center;
+      }
+      span {
+        padding: 10px;
+      }
+      .google {
+        border: 4px solid #fafaf9;
+        height: 10em;
+        width: 20em;
+        background-color: #fafaf9;
+        padding: 25px;
+        margin: 42px 91px;
+      }
+      .google p {
+        margin: 10px;
+      }
+      .google img {
+        margin-left: 5px;
+      }
+      .fb {
+        border: 4px solid #fafaf9;
+        height: 10em;
+        width: 22em;
+        background-color: #fafaf9;
+        padding: 20px;
+        margin: 18px 25px;
+      }
+      .fb p {
+        padding: 7px;
+      }
+      .fb img {
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div id="circle">⭐️</div>
+        <p id="title">Reviewers</p>
+        <p id="body">
+          Reviewers is where people can access guidelines, checklists, and other
+          tools to assist them in reviewing papers or manuscripts. It provides a
+          structured approach to ensure that the review process is thorough,
+          efficient, and consistent.
+        </p>
+        <div class="list">
+          <div class="items">
+            <img src="Done_ring_round_fill.svg" alt="ring" />
+            <span>Checklist to Review an Academic Paper</span>
+          </div>
+          <div class="items">
+            <img src="Done_ring_round_fill.svg" alt="ring" />
+            <span>Peer Review Checklist</span>
+          </div>
+          <div class="items">
+            <img src="Done_ring_round_fill.svg" alt="ring" />
+            <span
+              >Checklist for Editors, Reviewers, and Authors of SPIE
+              Journals</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="google">
+          <img src="google-png.png" alt="logo" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill_gray.svg" alt="gray" />
+          <p>Samantha Lee</p>
+          <p>The checklist ensures that the review process is thorough</p>
+        </div>
+        <div class="fb">
+          <img src="meta-png.png" alt="fb" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill.svg" alt="star" />
+          <img src="Star_fill.svg" alt="star" />
+          <p>Rachel Patel</p>
+          <p>I highly recommend the Writecream Business Description</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
