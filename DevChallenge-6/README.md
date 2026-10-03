@@ -5,7 +5,7 @@ A responsive business blog card built using HTML and CSS based on a DevChallenge
 
 ## Live Demo
 
-[View Live Demo](https://triveni-3124.github.io/WEB-DEVELOPMENT/DevChallenge-6/)
+[View Live Demo](https://triveni-3124.github.io/WEB-DEVELOPMENT/DevChallenge-6/index.html)
 
 ## Repository
 
